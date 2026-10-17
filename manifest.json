@@ -1,0 +1,33 @@
+{
+  "name": "Horarios de Ómnibus Uruguay • ServicioTI",
+  "short_name": "Horarios Bus",
+  "description": "Índice inteligente de horarios de ómnibus suburbanos, interdepartamentales y urbanos de Uruguay (COPSA, CUTCSA, Línea Este y COETC) con Radar de Próximo Coche en vivo y acceso directo a ServicioTI.com.uy",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#071936",
+  "theme_color": "#0056b3",
+  "orientation": "any",
+  "lang": "es-UY",
+  "categories": ["travel", "navigation", "utilities"],
+  "icons": [
+    {
+      "src": "assets/icons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

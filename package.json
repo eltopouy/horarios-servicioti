@@ -1,0 +1,14 @@
+{
+  "name": "horarios-servicioti",
+  "version": "1.0.0",
+  "description": "Índice inteligente de horarios de ómnibus de Uruguay (COPSA, CUTCSA, Línea Este y COETC) para horarios.servicioti.com.uy con enrutamiento 100% de tráfico hacia Blogger (www.servicioti.com.uy)",
+  "homepage": "https://horarios.servicioti.com.uy",
+  "scripts": {
+    "build:data": "python scripts/build_index_data.py",
+    "build:html": "python scripts/build_html.py",
+    "build": "python scripts/build_index_data.py && python scripts/build_html.py",
+    "test": "python scripts/verify_index.py"
+  },
+  "author": "Andrés Franchi Ugartemendía (www.servicioti.com.uy)",
+  "license": "MIT"
+}

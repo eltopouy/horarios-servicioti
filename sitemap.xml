@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://horarios.servicioti.com.uy/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://horarios.servicioti.com.uy/assets/icons/og-banner.png</image:loc>
+      <image:title>Índice Oficial de Horarios de Ómnibus Uruguay - ServicioTI</image:title>
+      <image:caption>Buscador inteligente de horarios de ómnibus COPSA, CUTCSA, Línea Este y COETC en Montevideo, Canelones y Maldonado.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://horarios.servicioti.com.uy/assets/icons/icon-512.png</image:loc>
+      <image:title>Logo Horarios ServicioTI</image:title>
+      <image:caption>Ícono oficial del portal de horarios de transporte colectivo de ServicioTI.com.uy.</image:caption>
+    </image:image>
+  </url>
+</urlset>

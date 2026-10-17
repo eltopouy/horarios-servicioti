@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Sitemaps Oficiales (Índice y Blog Fuente)
+Sitemap: https://horarios.servicioti.com.uy/sitemap.xml
+Sitemap: https://www.servicioti.com.uy/sitemap.xml
+Sitemap: https://www.servicioti.com.uy/sitemap-pages.xml
+
+# No indexar scripts de compilación interna
+Disallow: /scripts/
