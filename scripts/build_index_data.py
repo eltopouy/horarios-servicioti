@@ -283,6 +283,18 @@ for item in cutcsa_hist:
             "categoria": "Especial CUTCSA / Tarifas"
         }
 
+# Registrar Página Guía Oficial de COETC
+coetc_guia_url = "https://www.servicioti.com.uy/p/horarios-coetc-guia-lineas-suburbanas.html"
+archivo_blogger_map[coetc_guia_url] = {
+    "id": "8331816308880741215",
+    "titulo": "Horarios COETC: Guía de Líneas Suburbanas 222 y 222D",
+    "url": coetc_guia_url,
+    "lineas": ["222", "222D"],
+    "fecha": "2026-10-23",
+    "categoria": "Página Oficial / Catálogo",
+    "diaTipo": "general"
+}
+
 # Enriquecer detección de líneas en títulos de archivo_blogger_map
 for u, post in archivo_blogger_map.items():
     t_up = post["titulo"].upper()
@@ -571,6 +583,7 @@ for lid, pub in cutcsa_pub.items():
     })
 
 # 3D. COETC Líneas 222 y 222D (Montevideo ↔ Parque del Plata)
+coetc_guia_url = "https://www.servicioti.com.uy/p/horarios-coetc-guia-lineas-suburbanas.html"
 coetc_hab_url = "https://www.servicioti.com.uy/2024/03/222-222d-horarios-dias-habiles-coetc.html"
 coetc_sab_url = "https://www.servicioti.com.uy/2024/03/222-222d-horarios-sabados-coetc.html"
 coetc_dom_url = "https://www.servicioti.com.uy/2024/03/222-222d-horarios-domingos-coetc.html"
@@ -622,6 +635,7 @@ for coetc_id, coetc_name, coetc_tipo in [
             }
         },
         "postsRelacionados": [
+            {"titulo": "Horarios COETC: Guía de Líneas Suburbanas 222 y 222D", "url": coetc_guia_url, "diaTipo": "general"},
             {"titulo": "222-222D Horarios Días Hábiles COETC Actualizado", "url": coetc_hab_url, "diaTipo": "habiles"},
             {"titulo": "222-222D Horarios Sábados COETC Actualizado", "url": coetc_sab_url, "diaTipo": "sabados"},
             {"titulo": "222-222D Horarios Domingos COETC Actualizado", "url": coetc_dom_url, "diaTipo": "domingos"},
@@ -653,6 +667,16 @@ guias_maestras = [
         "url": "https://www.servicioti.com.uy/p/horarios-cutcsa-guia-de-lineas-c-d-l.html"
     },
     {
+        "id": "guia-coetc-pagina",
+        "titulo": "Catálogo Oficial COETC (Líneas 222 y 222D)",
+        "subtitulo": "Guía completa suburbana: Montevideo ↔ Parque del Plata por Giannattasio e Interbalnearia",
+        "empresa": "COETC",
+        "badge": "Página Oficial",
+        "icono": "🟪",
+        "color": "#dc2626",
+        "url": "https://www.servicioti.com.uy/p/horarios-coetc-guia-lineas-suburbanas.html"
+    },
+    {
         "id": "guia-este-pagina",
         "titulo": "Guía COPSA Línea Este y 713 (Maldonado / Rocha / Costa)",
         "subtitulo": "Punta del Este, Piriápolis, Balneario San Francisco, Punta Colorada, Punta Negra y Jaureguiberry",
@@ -661,16 +685,6 @@ guias_maestras = [
         "icono": "🏖️",
         "color": "#047857",
         "url": "https://www.servicioti.com.uy/p/horarios-copsa-linea-este-y-linea-713.html"
-    },
-    {
-        "id": "guia-coetc-222",
-        "titulo": "Especial COETC Línea 222 y 222D (Parque del Plata)",
-        "subtitulo": "Planillas completas para Lunes a Viernes, Sábados y Domingos por Giannattasio e Interbalnearia",
-        "empresa": "COETC",
-        "badge": "Costa de Oro",
-        "icono": "🚐",
-        "color": "#7c3aed",
-        "url": "https://www.servicioti.com.uy/2024/03/222-222d-horarios-dias-habiles-coetc.html"
     },
     {
         "id": "guia-tarifas-boletos",
